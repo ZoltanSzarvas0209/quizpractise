@@ -1,0 +1,59 @@
+
+
+/*------------------------General styling----------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-bg {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------Fitness Planner Container-----------------------*/
+
+.question-container {
+    background-color: black;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    margin: 10%;
+    border-radius: 10%;
+    color: aliceblue;
+    display: inline-block;
+}
+
+.header {
+    position: relative;
+    margin-top: 10px;
+}
+
+.calorie-calculator {
+    background-color: rgba(147, 138, 138, 0.5);
+    width: 90%;
+    height: 25%;
+    margin: 5%;
+}
+
+.fitness-level {
+    background-color: rgba(147, 138, 138, 0.5);
+    width: 90%;
+    height: 25%;
+    margin: 5%;
+}
+
+.body-type-quiz {
+    background-color: rgba(147, 138, 138, 0.5);
+    width: 90%;
+    height: 25%;
+    margin: 5%;
+}
